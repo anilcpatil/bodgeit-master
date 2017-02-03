@@ -10,7 +10,7 @@
             //conn = DriverManager.getConnection("jdbc:hsqldb:mem:SQL", "sa", "");
 			
 			Class.forName("com.mysql.jdbc.Driver").newInstance();  
-			conn=DriverManager.getConnection("jdbc:mysql://172.25.2516:3306/bodgeitdb","anil","anil");  
+			conn=DriverManager.getConnection("jdbc:mysql://172.25.25.16:3306/bodgeitdb","anil","anil");  
 			
         } catch (SQLException e) {
             getServletContext().log("Db error: " + e);
